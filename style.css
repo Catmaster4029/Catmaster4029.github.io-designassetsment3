@@ -1,7 +1,6 @@
 
 /*amongus*/
 
-
 body {
   margin: 0;
   margin-top: 50px;
@@ -16,7 +15,7 @@ header {
   right: 0;
   height: 50px;
   line-height: 50px;
-  background-color: #eee;
+  background-color: #ffffff;
 }
 
 header * {
@@ -34,11 +33,7 @@ header li {
 
 section {
   height: 100vh;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
@@ -61,4 +56,97 @@ section h3 {
 header a {
   text-decoration: none;
   color: #000000;
+}
+
+
+body {
+  background: black
+}
+
+h2, h3, h4, h5, h6, p {
+  color: black;
+}
+
+h1 {
+  background: white;
+  background-size: 50px;
+  display: table; 
+  margin: 0px auto px auto;
+  padding:4px;
+  background-color:#ffffff;
+  padding-left: 70px;
+  padding-right: 70px;  
+}
+
+
+#index {
+  height: 90px;
+  justify-content: center;
+}
+
+#index2 {
+  height: 500px;
+}
+
+#github_guide {
+  height: 90px;
+  justify-content: center;
+}
+
+
+#html {
+  height: 90px;
+  justify-content: center;
+}
+
+
+#css {
+  height: 90px;
+  justify-content: center;
+}
+
+
+#sources {
+  height: 90px;
+  justify-content: center;
+}
+
+p {
+    position:;
+    right: 500px;
+    padding: 10px;
+    color: black;
+  }
+
+.index2right {
+  background-color: white;
+  text-align: right;
+}
+
+.right {
+  float: inherit;
+  width: auto;
+  height: 200px;
+  padding: 10px;
+  background-color: white;
+  margin-left: 21px
+}
+
+.left {
+  float: inherit;
+  width: auto;
+  padding: 10px;
+  background-color: white;
+  margin-left: 21px;
+  margin-right: 21px;
+  align-content: center;
+  justify-content: center;
+}
+
+.down-right {
+  float: none;
+  width: auto;
+  height: 200px;
+  padding: 10px;
+  background-color: white;
 }
