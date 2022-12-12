@@ -1,5 +1,5 @@
 
-/*among us*/
+/*amongus*/
 
 body {
   margin: 0;
@@ -33,14 +33,6 @@ header li {
 
 section {
   height: 100vh;
-}
-
-section h2 {
-  font-size: 2.5em;
-}
-
-section h3 {
-  font-size: 1.5em;
 }
 
 a {
@@ -81,7 +73,7 @@ h1 {
 }
 
 #github_guide2 {
-  height: 520px;
+  height: 630px;
 }
 
 #sources2 {
@@ -94,10 +86,11 @@ h1 {
 }
 
 p {
-  position:;
   right: 500px;
   padding: 10px;
   color: black;
+  font-size: 20px;
+  margin-left: 7px
 }
 
 
@@ -143,8 +136,8 @@ p {
 
 .howtousepages2 {
   grid-column: 2/4;
-  grid-row: 3/5
 }
+
 
 
 .index2grid > div {
@@ -173,7 +166,7 @@ p {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 120px 120px 120px;
+  grid-template-rows: 200px 150px 240px;
   margin: 10px
 }
 
@@ -193,8 +186,16 @@ p {
 }
 
 .sources2grid > div {
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5em;
+  
+}
+
+h4 {
+  text-align: center
+}
+
+.boxtext {
+  font-size: 15px
 }
